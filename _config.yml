@@ -3,7 +3,7 @@ description: "International Conference on Machine Intelligence Theory and Applic
 url: "https://mita2027.com"
 baseurl: ""
 
-# No theme: directive — using local theme files (_layouts, _includes, _sass, etc.)
+# No theme: directive — using local theme files (_layouts, _includes, etc.)
 
 conference:
   lang: en
@@ -30,9 +30,6 @@ conference:
       - name: Contact
         relative_url: /contact/
 
-sass:
-  sass_dir: _sass
-  style: compressed
 
 plugins:
   - jekyll-feed
@@ -50,6 +47,7 @@ exclude:
   - "_css"
   - "_js"
   - "_tools"
+  - "_sass"
   - ".arts"
   - ".codeartsdoer"
   - "vendor"
