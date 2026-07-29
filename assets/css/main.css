@@ -34,9 +34,9 @@
 body {
   font-family: var(--f-body) !important;
   font-weight: 400;
-  color: var(--c-slate-800);
+  color: #1e293b;
   line-height: 1.75;
-  background-color: var(--c-slate-50);
+  background-color: var(--c-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -103,20 +103,6 @@ strong, b { font-weight: 600; color: var(--c-slate-800); }
   filter: brightness(2);
 }
 
-/* ===== Hero Section ===== */
-.hero-section {
-  min-height: 420px;
-  display: flex;
-  align-items: center;
-}
-
-.hero-bg {
-  z-index: 1;
-}
-
-.min-vh-50 {
-  min-height: 50vh;
-}
 
 /* ===== Main Content ===== */
 main.container,
@@ -461,6 +447,31 @@ img.img-fluid:hover {
     font-size: 0.9rem !important;
     padding: 0.4rem 0.75rem !important;
   }
+}
+
+/* ===== Content Sections (NeurIPS-style alternating blocks) ===== */
+.content-section {
+  background: var(--c-white);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: var(--radius);
+}
+
+.content-section-alt {
+  background: var(--c-slate-50);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: var(--radius);
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+
+.hero-bg {
+  z-index: 1;
 }
 
 /* ===== Print ===== */
