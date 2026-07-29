@@ -1,28 +1,39 @@
 /**
  * Bootstrap Custom Variables — NeurIPS-inspired academic palette
+ * Adjusted typography, sizes and accents to match the visual style of https://nips.cc
  */
 
-// Primary: deep navy blue
-$primary:       #1e3a5f;
-$secondary:     #64748b;
+// Load a web font stack (Inter + Merriweather for headings)
+// Note: the font itself will be loaded from the site layout via a link; keeping the-family declarations here.
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Merriweather", Georgia, "Times New Roman", serif;
+
+// Primary palette adjustments (deep navy + warm accent similar to NIPS)
+$primary:       #0b2545; // deep navy
+$secondary:     #6b7280; // muted gray
 $success:       #059669;
 $info:          #0ea5e9;
 $warning:       #d97706;
 $danger:        #dc2626;
-$light:         #f8fafc;
-$dark:          #0f172a;
+$light:         #fbfbfd;
+$dark:          #071433;
 
-// Typography
-$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-weight:   700;
+// Body and typography sizing (larger base for better readability)
+$font-size-base: 18px;
+$body-bg:       #ffffff;
+$body-color:    #0f172a;
+$line-height-base: 1.65;
 
-// Body
-$body-bg:       #f0f2f5;
-$body-color:    #1e293b;
+// Headings — use serif display with strong weights and larger sizes
+$headings-font-weight: 700;
+$h1-font-size: 3rem; // large hero title
+$h2-font-size: 2rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
 
-// Links
-$link-color:    #2563eb;
-$link-hover-color: #1d4ed8;
+// Links and accents — warm highlight color to match conference identity
+$link-color:    #d35400; // warm orange
+$link-hover-color: darken($link-color, 8%);
 
 // Borders & radius
 $border-radius:    0.5rem;
@@ -30,13 +41,12 @@ $border-radius-lg: 0.75rem;
 $border-radius-sm: 0.375rem;
 
 // Navbar
-$navbar-light-color:         rgba(#fff, 0.85);
+$navbar-light-color:         rgba(#fff, 0.95);
 $navbar-light-hover-color:   #fff;
 $navbar-light-active-color:  #fff;
 $navbar-light-brand-color:   #fff;
 $navbar-light-brand-hover-color: #fff;
 $navbar-light-toggler-border-color: rgba(#fff, 0.4);
-$navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(255,255,255,0.85)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 
 // Cards
 $card-border-radius: 0.75rem;
