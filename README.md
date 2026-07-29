@@ -1,6 +1,6 @@
-# MiTA 2026 Conference Website
+# MiTA 2027 Conference Website
 
-This is the Jekyll-based website for the **International Conference on Machine Intelligence Theory and Applications (MiTA 2026)**, built with the [jekyll-theme-conference](https://github.com/DigitaleGesellschaft/jekyll-theme-conference) theme.
+This is the Jekyll-based website for the **International Conference on Machine Intelligence Theory and Applications (MiTA 2027)**, built with the [jekyll-theme-conference](https://github.com/DigitaleGesellschaft/jekyll-theme-conference) theme.
 
 ## Site Structure
 
