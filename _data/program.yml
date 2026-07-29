@@ -1,7 +1,7 @@
 days:
   - name: Feb 24
     abbr: F24
-    date: 2026-02-24
+    date: 2027-02-24
     rooms:
       - name: Onsite Venue
         talks:
@@ -10,7 +10,7 @@ days:
             time_end: "20:00"
   - name: Feb 25
     abbr: F25
-    date: 2026-02-25
+    date: 2027-02-25
     rooms:
       - name: Onsite Venue
         talks:
@@ -43,7 +43,7 @@ days:
             time_end: "20:00"
   - name: Feb 26
     abbr: F26
-    date: 2026-02-26
+    date: 2027-02-26
     rooms:
       - name: Zoom
         talks:
@@ -58,7 +58,7 @@ days:
             time_end: "22:00"
   - name: Feb 27
     abbr: F27
-    date: 2026-02-27
+    date: 2027-02-27
     rooms:
       - name: Zoom
         talks:
@@ -73,7 +73,7 @@ days:
             time_end: "22:00"
   - name: Feb 28
     abbr: F28
-    date: 2026-02-28
+    date: 2027-02-28
     rooms:
       - name: Zoom
         talks:

@@ -6,7 +6,7 @@ permalink: /submission/
 
 ## Submission
 
-**[Online Paper Submission](https://openreview.net/group?id=IEEE.org/MiTA/2026/Conference&referrer=%5BHomepage%5D(%2F)#tab-your-consoles)**
+**[Online Paper Submission](https://openreview.net/group?id=IEEE.org/MiTA/2027/Conference&referrer=%5BHomepage%5D(%2F)#tab-your-consoles)**
 
 ### Paper Format
 
@@ -45,7 +45,7 @@ An Online confirmation will be displayed and an email confirmation will be sent 
 
 IEEE requires that the PDF files submitted for the accepted papers be 100% IEEE Xplore compliant. Please make sure that you follow the Instructions on how to produce IEEE Xplore compliant PDF files.
 
-If your paper is ready, please submit your paper(s) via OpenReview system: **[Online Paper Submission](https://openreview.net/group?id=IEEE.org/MiTA/2026/Conference&referrer=%5BHomepage%5D(%2F)#tab-your-consoles)**
+If your paper is ready, please submit your paper(s) via OpenReview system: **[Online Paper Submission](https://openreview.net/group?id=IEEE.org/MiTA/2027/Conference&referrer=%5BHomepage%5D(%2F)#tab-your-consoles)**
 
 To complete the final submission, please click **"Edit"** at the top right of your paper page and select **"Submission"**.
 
@@ -53,7 +53,7 @@ To complete the final submission, please click **"Edit"** at the top right of yo
 
 When the authors register the OpenReview system, note that new profiles created without an institutional email will go through a moderation process that can take up to two weeks. New profiles created with an institutional email will be activated automatically. We recommend authors to use your institutional email with the edu ending to register and submit the papers.
 
-### IEEE MiTA2026 eCopyright Form Submission
+### IEEE MiTA2027 eCopyright Form Submission
 
 The copyright report includes: eCF Paper ID, Author Name, Author Email, and Copyright Status. Please ensure all authors of accepted papers complete copyright transfer. **Note: One author in a paper can designate a representative to sign the IEEE Copyright form, but the names of all authors should be added in the IEEE Copyright form.**
 

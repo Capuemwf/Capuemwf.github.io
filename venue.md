@@ -15,7 +15,7 @@ postal_address:
   region: "New Zealand"
 ---
 
-The Thirteenth International Conference on Machine Intelligence Theory and Applications (MiTA 2026) will be held at the historic University of Otago in Dunedin, New Zealand.
+The Thirteenth International Conference on Machine Intelligence Theory and Applications (MiTA 2027) will be held at the historic University of Otago in Dunedin, New Zealand.
 
 **Technical Program Location:** Goddard Laboratory, University of Otago, Dunedin, New Zealand
 

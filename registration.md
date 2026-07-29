@@ -8,14 +8,14 @@ permalink: /registration/
 
 | Registration Period (Per Paper) | Onsite Registration | Online Registration |
 |--------------------------------|--------------------|--------------------|
-| Standard (On or before **Feb 1, 2026**) | $900 (CNY 6300) | $900 (CNY 6300) |
-| Late (After **Feb 1, 2026**) | $950 (CNY 6650) | $950 (CNY 6650) |
+| Standard (On or before **Feb 1, 2027**) | $900 (CNY 6300) | $900 (CNY 6300) |
+| Late (After **Feb 1, 2027**) | $950 (CNY 6650) | $950 (CNY 6650) |
 
 ### Registration and Refund Policy
 
 An accepted paper will be published in the proceedings ONLY if at least one author registers for the paper.
 
-MiTA2026 provides onsite and online presentation and the registration fee is the same. The authors can choose via the payment link.
+MiTA2027 provides onsite and online presentation and the registration fee is the same. The authors can choose via the payment link.
 
 **Refund Policy:** There will be no refunds to the authors.
 
