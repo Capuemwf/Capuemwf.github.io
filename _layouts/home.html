@@ -5,29 +5,31 @@ layout: default
 {%- assign page_title = page.title | default: site.title -%}
 
 <!-- Hero Section with Tasmania Background -->
-<section class="hero-section position-relative overflow-hidden" style="min-height: 380px;">
-  <div class="hero-bg position-absolute w-100 h-100" style="background: linear-gradient(135deg, rgba(15, 23, 42, 0.82), rgba(30, 41, 59, 0.7)), url('{{ site.baseurl }}/image/tasmania.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; z-index: 1;"></div>
-  <div class="container position-relative py-5" style="z-index: 2;">
-    <div class="row align-items-center" style="min-height: 280px;">
-      <div class="col-lg-8 mx-auto text-center">
-        <h1 class="fw-bold mb-3 text-white" style="font-family: 'Exo', sans-serif; font-size: 2.75rem; text-shadow: 0 2px 8px rgba(0,0,0,0.4);">{{ site.title }}</h1>
-        <p class="mb-4" style="font-family: 'Lato', sans-serif; font-size: 1.15rem; color: rgba(255,255,255,0.92);">{{ site.description }}</p>
-        {{ content }}
-        {%- if page.links -%}
-        <div class="d-flex flex-wrap gap-2 justify-content-center mt-4">
-          {%- for link in page.links -%}
-            {%- if link.href -%}
-              <a href="{{ link.href }}" class="btn px-4 py-2 fw-semibold rounded-3" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.35); color: #fff; font-family: 'Exo', sans-serif;">
-                {{ link.name }}
-              </a>
-            {%- else -%}
-              <a href="{{ site.baseurl }}{{ link.relative_url }}" class="btn px-4 py-2 fw-semibold rounded-3" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.35); color: #fff; font-family: 'Exo', sans-serif;">
-                {{ link.name }}
-              </a>
-            {%- endif -%}
-          {%- endfor -%}
+<section class="hero-section position-relative overflow-hidden">
+  <div class="hero-bg position-absolute w-100 h-100" style="background: linear-gradient(135deg, rgba(15, 23, 42, 0.78), rgba(30, 41, 59, 0.62)), url('{{ site.baseurl }}/image/tasmania.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; z-index: 1;"></div>
+  <div class="container position-relative" style="z-index: 2; padding: 3.5rem 1rem;">
+    <div class="row align-items-center">
+      <div class="col-lg-9">
+        <div class="text-white py-2">
+          <h1 class="fw-bold mb-3" style="font-family: 'Exo', sans-serif; font-size: 2.75rem; text-shadow: 0 2px 8px rgba(0,0,0,0.4);">{{ site.title }}</h1>
+          <p class="mb-3" style="font-family: 'Lato', sans-serif; font-size: 1.15rem; color: rgba(255,255,255,0.9);">{{ site.description }}</p>
+          {{ content }}
+          {%- if page.links -%}
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            {%- for link in page.links -%}
+              {%- if link.href -%}
+                <a href="{{ link.href }}" class="btn px-4 py-2 fw-semibold rounded-3" style="background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.35); color: #fff; font-family: 'Exo', sans-serif;">
+                  {{ link.name }}
+                </a>
+              {%- else -%}
+                <a href="{{ site.baseurl }}{{ link.relative_url }}" class="btn px-4 py-2 fw-semibold rounded-3" style="background: rgba(255,255,255,0.18); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.35); color: #fff; font-family: 'Exo', sans-serif;">
+                  {{ link.name }}
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+          {%- endif -%}
         </div>
-        {%- endif -%}
       </div>
     </div>
   </div>

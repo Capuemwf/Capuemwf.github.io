@@ -107,8 +107,8 @@ strong, b { font-weight: 600; color: var(--c-slate-800); }
 /* ===== Main Content ===== */
 main.container,
 #main.container {
-  max-width: 960px !important;
-  padding: 2rem 1rem !important;
+  max-width: 1140px !important;
+  padding: 2rem 1.5rem !important;
 }
 
 /* ===== Page Header ===== */
@@ -449,19 +449,27 @@ img.img-fluid:hover {
   }
 }
 
-/* ===== Content Sections (NeurIPS-style alternating blocks) ===== */
+/* ===== Content Sections (NeurIPS-style: white cards on gray background) ===== */
 .content-section {
   background: var(--c-white);
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
   border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
 }
 
 .content-section-alt {
-  background: var(--c-slate-50);
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  background: var(--c-white);
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
   border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Wrap home content in bg-light like NeurIPS */
+.home-content-wrap {
+  background: var(--c-slate-50);
+  padding: 2rem 0;
 }
 
 /* ===== Hero Section ===== */
