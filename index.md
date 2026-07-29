@@ -9,13 +9,13 @@ links:
     relative_url: /submission/
 ---
 
-Brisbane, Australia 21-23 February  
-Dunedin, New Zealand 24-28 February  
-Queenstown, New Zealand 1-3 March
+Melbourne, Australia 11-14 February  
+Tasmania, Australia 15-16 February   
+Brisbane, Australia 17-18 February
 
 ## Call For Papers
 
-The **Thirteenth International Conference on Machine Intelligence Theory and Applications (MiTA)** will be held in Dunedin, New Zealand (February 24-28). MiTA2026 aims to provide a high-level international forum for innovative academics and industrial experts in the related fields of machine intelligence theory and applications to present their recent research advances. The conference will feature plenary speeches given by world-renowned scholars, regular sessions with broad coverage, and special sessions focusing on popular topics. Papers that are registered for the conference and presented on-site or online will be recommended for publication of an extended version in an SCI journal. For those unable to attend in person due to visa issues, online participation and presentation are available. Papers presented online will also be considered for priority recommendation to SCI Zone 2 journals, subject to the review process.
+The **Fourteenth International Conference on Machine Intelligence Theory and Applications (MiTA)** will be held in Melbourne, Tasmania, and Brisbane (February 11-18). MiTA2027 aims to provide a high-level international forum for innovative academics and industrial experts in the related fields of machine intelligence theory and applications to present their recent research advances. The conference will feature plenary speeches given by world-renowned scholars, regular sessions with broad coverage, and special sessions focusing on popular topics. Papers that are registered for the conference and presented on-site or online will be recommended for publication of an extended version in an SCI journal. For those unable to attend in person due to visa issues, online participation and presentation are available. Papers presented online will also be considered for priority recommendation to SCI Zone 2 journals, subject to the review process.
 
 ## Topic Areas
 
@@ -79,7 +79,7 @@ We invite original contributions on all topics related to Machine Intelligence T
 
 ## Special Session
 
-Proposals for Special Sessions within the technical scope of the conference are solicited. Special sessions, to be organized by internationally recognized experts, aim to bring together researchers in special focused topics. Papers submitted for special sessions are peer-reviewed with the same criteria used for the contributed papers. Researchers interested in organizing special sessions are invited to submit formal proposals to MiTA 2026. A special session proposal should include the session title, a brief description of the scope and motivation, names, contact information, and brief biographical information on the organizers.
+Proposals for Special Sessions within the technical scope of the conference are solicited. Special sessions, to be organized by internationally recognized experts, aim to bring together researchers in special focused topics. Papers submitted for special sessions are peer-reviewed with the same criteria used for the contributed papers. Researchers interested in organizing special sessions are invited to submit formal proposals to MiTA 2027. A special session proposal should include the session title, a brief description of the scope and motivation, names, contact information, and brief biographical information on the organizers.
 
 ## Latest Updates
 
