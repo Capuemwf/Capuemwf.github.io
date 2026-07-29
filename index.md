@@ -19,11 +19,13 @@ links:
   <span class="d-inline-block mb-2" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.35); padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem; color: #fff;">
     📍 Brisbane, Australia &middot; Feb 17-18
   </span>
-</div>
 
+</div>
+</div>
 <!-- Content below hero: white cards on light gray background -->
 
 <div class="home-content-wrap">
+<div class="container">
 
 <section class="content-section mb-4">
 <h2>Call For Papers</h2>

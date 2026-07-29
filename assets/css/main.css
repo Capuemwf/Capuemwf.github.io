@@ -107,8 +107,8 @@ strong, b { font-weight: 600; color: var(--c-slate-800); }
 /* ===== Main Content ===== */
 main.container,
 #main.container {
-  max-width: 1140px !important;
-  padding: 2rem 1.5rem !important;
+  max-width: 100% !important;
+  padding: 0 !important;
 }
 
 /* ===== Page Header ===== */
@@ -470,6 +470,12 @@ img.img-fluid:hover {
 .home-content-wrap {
   background: var(--c-slate-50);
   padding: 2rem 0;
+}
+
+.home-content-wrap .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 /* ===== Hero Section ===== */

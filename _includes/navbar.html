@@ -2,7 +2,10 @@
 <nav class="navbar navbar-expand-{{ breakpoint }} navbar-dark mb-0" style="background-color: #212529;" aria-label="{{ site.data.lang[site.conference.lang].navigation.main | default: 'Main navigation' }}">
   <div class="container">
 
-    <a class="navbar-brand order-0" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="navbar-brand order-0" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/image/logo.png" alt="{{ site.title }}" style="height: 36px;" class="d-inline-block align-text-top me-2" />
+      <span class="d-none d-md-inline">{{ site.title }}</span>
+    </a>
 
     <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ site.data.lang[site.conference.lang].navigation.toggle | default: 'Toggle navigation menu' }}">
       <span class="navbar-toggler-icon" aria-hidden="true"></span>
