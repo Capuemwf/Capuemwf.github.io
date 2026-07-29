@@ -1,0 +1,60 @@
+title: "MiTA 2026"
+description: "International Conference on Machine Intelligence Theory and Applications (2026)"
+url: "https://mita2026.com"
+baseurl: ""
+
+# No theme: directive — using local theme files (_layouts, _includes, _sass, etc.)
+
+conference:
+  lang: en
+  show_errors: false
+  navigation:
+    breakpoint: md
+    links:
+      - name: Home
+        relative_url: /
+      - name: Sponsors
+        relative_url: /sponsors/
+      - name: Committees
+        relative_url: /committees/
+      - name: Deadline
+        relative_url: /deadline/
+      - name: Submission
+        relative_url: /submission/
+      - name: Registration
+        relative_url: /registration/
+      - name: Program
+        relative_url: /program/
+      - name: Venue
+        relative_url: /venue/
+      - name: Contact
+        relative_url: /contact/
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - "*.gemspec"
+  - "*.gem"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "package.json"
+  - "package-lock.json"
+  - "vite.config.js"
+  - "_css"
+  - "_js"
+  - "_tools"
+  - ".arts"
+  - ".codeartsdoer"
+  - "vendor"
+  - "README.md"
+  - "UPGRADE_GUIDE.md"
+  - "LICENSE.md"
+  - ".github"
+  - ".git"
