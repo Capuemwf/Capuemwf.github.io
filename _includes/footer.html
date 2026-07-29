@@ -1,6 +1,15 @@
 
   </main>
 
+  <footer class="site-footer d-pwa-none">
+    <div class="container">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</span>
+      {% if site.url %}
+        &middot; <a href="{{ site.url }}">{{ site.url | replace: 'https://', '' | replace: 'http://', '' }}</a>
+      {% endif %}
+    </div>
+  </footer>
+
   <footer class="fixed-bottom">
     {%- include navbar_pwa.html -%}
   </footer>

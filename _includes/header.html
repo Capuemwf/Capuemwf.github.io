@@ -29,6 +29,9 @@
   </title>
   {% include list_header_meta.html %}
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
   {% if site.conference.custom_style == "bootstrap" %}
   {% comment %} Conference bundle with separate Bootstrap {% endcomment %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css?t={{ site.time | date: '%s' }}" />
