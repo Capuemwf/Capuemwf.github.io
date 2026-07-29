@@ -1,95 +1,34 @@
-{% include header.html %}
+---
+layout: default
+---
 
-<section class="conference-hero">
-  <div class="container">
-    <h1 class="hero-title text-break">
-      {% if page.header.img %}
-        {% if page.header.img_dark %}
-          <div class="mode-light">
-            <img src="{{ page.header.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-75 d-none d-md-inline" alt="{{ site.title }}" />
-            <img src="{{ page.header.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-100 d-md-none" alt="{{ site.title }}" />
-          </div>
-          <div class="mode-dark">
-            <img src="{{ page.header.img_dark | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-75 d-none d-md-inline" alt="{{ site.title }}" />
-            <img src="{{ page.header.img_dark | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-100 d-md-none" alt="{{ site.title }}" />
-          </div>
-        {% else %}
-          <img src="{{ page.header.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-75 d-none d-md-inline" alt="{{ site.title }}" />
-          <img src="{{ page.header.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-100 d-md-none" alt="{{ site.title }}" />
-        {% endif %}
-      {% elsif page.title %}
-        {{ page.title }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
+{%- assign page_title = page.title | default: site.title -%}
 
-    {% if site.description != none %}
-      <div class="hero-subtitle">
-        {{ site.description | markdownify }}
-      </div>
-    {% endif %}
-
-    {% if page.links %}
-      <div class="hero-actions d-print-none">
-      {% assign btn_default = 'btn btn-outline-light btn-lg' %}
-      {% for link in page.links %}
-
-        {% if link.menu %}
-          <div class="dropdown d-inline">
-            <a class="{{ btn_default }} dropdown-toggle" href="#" role="button" id="main-dropdown{{ forloop.index0 }}" data-bs-toggle="dropdown" aria-expanded="false">
-              {{ link.name }}
-            </a>
-            <div class="dropdown-menu" aria-labelledby="main-dropdown{{ forloop.index0 }}">
-              {% assign parent_link = link %}
-              {% for link in parent_link.menu %}
-                {% include get_link.html class="dropdown-item" %}
-                {{ link_tag }}
-                  {{ link.name }}
-                </a>
-              {% endfor %}
-            </div>
-          </div>
-
-        {% elsif link.live %}
-          {% if site.conference.live %}
-            {%- include get_live_timestamps.html -%}
-
-            <span class="live-show d-none d-print-none" data-start="{{ live_starts }}" data-end="{{ live_ends }}">
-              {%- include get_link.html class=btn_default -%}
-              {{ link_tag }}
-                {%- if link.name -%}
-                  {{ link.name }}
-                {%- else -%}
-                  {% include get_live_icon.html %}
-                {%- endif -%}
+<!-- Hero Section with Tasmania Background -->
+<section class="hero-section position-relative overflow-hidden">
+  <div class="hero-bg position-absolute w-100 h-100" style="background: linear-gradient(135deg, rgba(15, 23, 42, 0.85), rgba(30, 41, 59, 0.75)), url('https://images.unsplash.com/photo-1589967143468-379839e06239?w=1920&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+  <div class="container position-relative py-5" style="z-index: 2;">
+    <div class="row align-items-center min-vh-50">
+      <div class="col-lg-8 mx-auto text-center text-white">
+        <h1 class="display-4 fw-bold mb-3" style="font-family: 'Exo', sans-serif; text-shadow: 0 2px 8px rgba(0,0,0,0.3);">{{ site.title }}</h1>
+        <p class="fs-5 mb-4 opacity-90" style="font-family: 'Lato', sans-serif;">{{ site.description }}</p>
+        {{ content }}
+        {%- if page.links -%}
+        <div class="d-flex flex-wrap gap-2 justify-content-center mt-4">
+          {%- for link in page.links -%}
+            {%- if link.href -%}
+              <a href="{{ link.href }}" class="btn px-4 py-2 fw-semibold rounded-3" style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.3); color: white; font-family: 'Exo', sans-serif;">
+                {{ link.name }}
               </a>
-            </span>
-
-            {%- if link.name_inactive -%}
-              <span class="live-hide d-print-inline {{ btn_default }} disabled" data-start="{{ live_starts }}" data-end="{{ live_ends }}">
-                {{ link.name_inactive }}
-              </span>
+            {%- else -%}
+              <a href="{{ site.baseurl }}{{ link.relative_url }}" class="btn px-4 py-2 fw-semibold rounded-3" style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.3); color: white; font-family: 'Exo', sans-serif;">
+                {{ link.name }}
+              </a>
             {%- endif -%}
-
-          {%- endif -%}
-
-        {% else %}
-          {% include get_link.html class=btn_default %}
-          {{ link_tag }}
-            {{ link.name }}
-          </a>
-        {% endif %}
-      {% endfor %}
+          {%- endfor -%}
+        </div>
+        {%- endif -%}
       </div>
-    {% endif %}
+    </div>
   </div>
 </section>
-
-<div class="conference-page-body">
-  <article class="conference-card conference-content">
-    {{ content }}
-  </article>
-</div>
-
-{% include footer.html %}

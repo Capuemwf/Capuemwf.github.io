@@ -9,9 +9,17 @@ links:
     relative_url: /submission/
 ---
 
-Melbourne, Australia 11-14 February  
-Tasmania, Australia 15-16 February   
-Brisbane, Australia 17-18 February
+<div class="mb-4">
+  <span class="d-inline-block me-3 mb-2" style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem;">
+    📍 Melbourne, Australia &middot; Feb 11-14
+  </span>
+  <span class="d-inline-block me-3 mb-2" style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem;">
+    📍 Tasmania, Australia &middot; Feb 15-16
+  </span>
+  <span class="d-inline-block mb-2" style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem;">
+    📍 Brisbane, Australia &middot; Feb 17-18
+  </span>
+</div>
 
 ## Call For Papers
 
