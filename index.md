@@ -10,13 +10,13 @@ links:
 ---
 
 <div class="mb-3">
-  <span class="d-inline-block me-3 mb-2" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.35); padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem; color: #fff;">
+  <span class="d-inline-block me-3 mb-2" style="background: #e0f2fe; border: 1px solid #bae6fd; padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem; color: #0c4a6e;">
     📍 Melbourne, Australia &middot; Feb 11-14
   </span>
-  <span class="d-inline-block me-3 mb-2" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.35); padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem; color: #fff;">
+  <span class="d-inline-block me-3 mb-2" style="background: #e0f2fe; border: 1px solid #bae6fd; padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem; color: #0c4a6e;">
     📍 Tasmania, Australia &middot; Feb 15-16
   </span>
-  <span class="d-inline-block mb-2" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.35); padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem; color: #fff;">
+  <span class="d-inline-block mb-2" style="background: #e0f2fe; border: 1px solid #bae6fd; padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.95rem; color: #0c4a6e;">
     📍 Brisbane, Australia &middot; Feb 17-18
   </span>
 
@@ -58,10 +58,6 @@ links:
   <li>The calculus of fuzzy numbers</li>
   <li>Fuzzy clustering</li>
   <li>Fuzzy classification</li>
-</ul>
-</div>
-<div class="col-md-6">
-<ul>
   <li>Fuzzy data analysis</li>
   <li>Fuzzy decision-making</li>
   <li>Fuzzy rule-based modeling</li>
@@ -70,6 +66,10 @@ links:
   <li>Natural language processing</li>
   <li>Information technology</li>
   <li>Image processing and multimedia technology</li>
+</ul>
+</div>
+<div class="col-md-6">
+<ul>
   <li>Software engineering</li>
   <li>Mobile computing</li>
   <li>Distributed systems</li>

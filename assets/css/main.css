@@ -468,7 +468,7 @@ img.img-fluid:hover {
 
 /* Wrap home content in bg-light like NeurIPS */
 .home-content-wrap {
-  background: var(--c-slate-50);
+  background: var(--c-white);
   padding: 2rem 0;
 }
 
