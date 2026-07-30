@@ -29,9 +29,18 @@ permalink: /program/
 | Feb 14 | 13:15 – 17:00 | Online Presentations | Zoom |
 | Feb 14 | 17:00 – 18:15 | Lunch Break | — |
 | Feb 14 | 18:15 – 22:00 | Online Presentations | Zoom |
+| Feb 15 | 13:15 – 17:00 | Online Presentations | Zoom |
+| Feb 15 | 17:00 – 18:15 | Lunch Break | — |
+| Feb 15 | 18:15 – 20:15 | Online Presentations | Zoom |
 | Feb 16 | 13:15 – 17:00 | Online Presentations | Zoom |
 | Feb 16 | 17:00 – 18:15 | Lunch Break | — |
 | Feb 16 | 18:15 – 20:15 | Online Presentations | Zoom |
+| Feb 17 | 13:15 – 17:00 | Online Presentations | Zoom |
+| Feb 17 | 17:00 – 18:15 | Lunch Break | — |
+| Feb 17 | 18:15 – 20:15 | Online Presentations | Zoom |
+| Feb 18 | 13:15 – 17:00 | Online Presentations | Zoom |
+| Feb 18 | 17:00 – 18:15 | Lunch Break | — |
+| Feb 18 | 18:15 – 20:15 | Online Presentations | Zoom |
 
 #### Important Notes
 
