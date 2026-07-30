@@ -7,7 +7,7 @@ permalink: /program/
 
 ### Technical Program Schedule
 
-**Venue:** 97 Union Pl East, North Dunedin, University of Otago - Dunedin Central Campus
+**Venue:** 37 Hunter Street, 7000 Hobart, Tasmania, Australia
 
 **Detail Program of Oral Presentation:** [Download PDF](/image/paper_oral_presentation_arrangement.pdf)
 
