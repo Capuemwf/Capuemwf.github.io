@@ -14,49 +14,90 @@ postal_address:
   locality: "Dunedin"
   region: "New Zealand"
 ---
-The Fourteenth International Conference on Machine Intelligence Theory and Applications (MiTA 2027) will be held at the historic University of Otago in Dunedin, New Zealand.
+# Venue
 
-**Technical Program Location:** Goddard Laboratory, University of Otago, Dunedin, New Zealand
+The conference will be held at the **Dechaineux Lecture Theatre**, Centre for the Arts, **University of Tasmania**, Hobart, Tasmania, Australia.
 
-### Recommended Accommodation
+The Dechaineux Lecture Theatre is a modern, tiered lecture theatre equipped with professional audiovisual facilities. Located within the University's Centre for the Arts on Hobart's historic waterfront, the venue provides an excellent environment for keynote presentations, technical sessions, and academic discussions.
 
-_Important: We recommend delegates book local accommodations as soon as possible._
+**Conference Venue**
 
-#### 1\. Within 5-Minute Walking Distance
+**Dechaineux Lecture Theatre**  
+Centre for the Arts  
+University of Tasmania  
+37 Hunter Street  
+Hobart TAS 7000  
+Australia
 
-*   **George Street Motel Apartments:** Highly convenient, apartment-style
+# About Hobart
+
+Hobart is the capital city of Tasmania and Australia's second-oldest capital city. Situated between the River Derwent and kunanyi / Mount Wellington, Hobart is well known for its spectacular natural scenery, vibrant arts community, and rich maritime history.
+
+Popular attractions include:
+
+*   Salamanca Place
     
-*   **Dunedin Motel and Villas:** Comfortable and close to the venue
+*   Salamanca Market
     
-*   **538 Great King Motel:** Modern facilities, very popular with visiting academics
+*   Battery Point
     
-*   **Alhambra Oaks Motor Lodge:** Classic Dunedin hospitality, right on the edge of campus
+*   MONA (Museum of Old and New Art)
     
-
-#### 2\. Premium Selection (For Delegates with Vehicles)
-
-*   **Scenic Hotel Dunedin City (4.5 Stars):** Located in the city center. A short drive or a 15-20 minute walk to the Goddard Laboratories.
+*   kunanyi / Mount Wellington
     
-
-**How to Book:** We recommend using international platforms like Booking.com or Trivago.com to secure the best rates.
-
-### Transportation Guide
-
-#### From Dunedin Airport (DUD)
-
-Dunedin Airport is located approximately 30 km from the University of Otago.
-
-*   **Airport Shuttle (Door-to-Door):** The most cost-effective way (e.g., Super Shuttle).
-    
-    *   Cost: Approx. $30-$40 NZD | Travel Time: 45-60 mins
-        
-*   **Taxi & Ride-share (Uber):** Available outside the terminal.
-    
-    *   Cost: Approx. $90-$120 NZD | Travel Time: 30 mins
-        
-*   **Car Rental:** Hertz, Avis, and Europcar are available at the airport. Note that campus parking is limited.
+*   Royal Tasmanian Botanical Gardens
     
 
-### About Dunedin
+# Transportation
 
-Known as the "Edinburgh of the South," Dunedin is famous for its Scottish heritage and Victorian architecture. We encourage you to explore the beautiful Otago Peninsula during your stay.
+## By Air
+
+The nearest airport is **Hobart Airport (HBA)**, approximately **20 km** from the conference venue. Direct domestic flights connect Hobart with Sydney, Melbourne, Brisbane, Adelaide, Perth, and other major Australian cities.
+
+## From Hobart Airport
+
+Participants may travel to the venue by:
+
+*   Airport Shuttle
+    
+*   Taxi (approximately 20–25 minutes)
+    
+*   Uber and other ride-sharing services
+    
+*   Rental car
+    
+
+# Conference Facilities
+
+The conference venue offers:
+
+*   Modern tiered lecture theatre
+    
+*   High-quality audiovisual equipment
+    
+*   Wireless Internet access
+    
+*   Adjacent foyer for registration and coffee breaks
+    
+*   Walking distance to hotels, restaurants, cafés, and Hobart's waterfront
+    
+
+# Accommodation
+
+Numerous accommodation options are available within walking distance of the venue, ranging from international hotels to serviced apartments and budget accommodation.
+
+Participants are encouraged to make reservations early.
+
+# Weather
+
+Tasmania enjoys a mild maritime climate.
+
+Average daytime temperatures during the conference season are typically between **15°C and 25°C**, while evenings can be cooler. A light jacket is recommended.
+
+# Visa Information
+
+International participants should ensure they meet the Australian visa requirements before travelling.
+
+Please refer to the Australian Government Department of Home Affairs for the latest visa information.
+
+We look forward to welcoming you to the University of Tasmania and the beautiful city of Hobart.
