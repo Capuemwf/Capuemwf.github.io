@@ -2,17 +2,17 @@
 layout: location
 title: Venue
 permalink: /venue/
-name: University of Otago
+name: Dechaineux Lecture Theatre, University of Tasmania
 map: true
 map_provider: "OpenStreetMap.Mapnik"
-home_coord: [-45.8743, 170.5029]
-default_zoom: 15
+home_coord: [-42.8823, 147.3338]
+default_zoom: 17
 postal_address:
-  name: "University of Otago"
-  street: "97 Union Pl East, North Dunedin"
-  postal_code: "9016"
-  locality: "Dunedin"
-  region: "New Zealand"
+  name: "Dechaineux Lecture Theatre"
+  street: "37 Hunter Street"
+  postal_code: "7000"
+  locality: "Hobart"
+  region: "Tasmania, Australia"
 ---
 # Venue
 
