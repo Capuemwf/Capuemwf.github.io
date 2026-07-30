@@ -9,7 +9,7 @@ permalink: /program/
 
 **Venue:** 37 Hunter Street, 7000 Hobart, Tasmania, Australia
 
-**Detail Program of Oral Presentation:** [Download PDF](/image/paper_oral_presentation_arrangement.pdf)
+**Detail Program of Oral Presentation:** To Be Announced
 
 | Date | NZ Time | Activity | Location |
 | --- | --- | --- | --- |
@@ -44,8 +44,8 @@ permalink: /program/
 
 #### Important Notes
 
-*   **Timezone:** All online presentations are scheduled in New Zealand time (Five hours ahead of Beijing Time).
+*   **Timezone:** All online presentations are scheduled in Australia time (Three hours ahead of Beijing Time).
     
-*   **Lunch Venue (Feb 25):** The onsite lunch break will be held at the Staff Club.
+*   **Lunch Venue (Feb 12):** The onsite lunch break will be held at the Staff Club.
     
-*   **Online Access:** Refer to the [Detail Program PDF](/pdf/paper_oral_presentation_arrangement.pdf) for meeting IDs and passwords for Zoom sessions.
+*   **Online Access:** To Be Announced.
