@@ -8,7 +8,7 @@ links:
   - name: Paper Submission
     relative_url: /submission/
 ---
-📍 Melbourne, Australia · Feb 11-14 📍 Tasmania, Australia · Feb 15-16 📍 Brisbane, Australia · Feb 17-18
+📍 Tasmania, Australia · Feb 11-14 📍 Melbourne, Australia · Feb 15-16 📍 Brisbane, Australia · Feb 17-18 (workshop)
 
 ## Call For Papers
 
