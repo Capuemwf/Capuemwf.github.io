@@ -13,7 +13,6 @@ permalink: /deadline/
         <h5 class="card-title">📄 Paper Submission Deadline</h5>
         <p class="card-text">
           <strong>November 15, 2025</strong><br/>
-          <span class="text-danger">Extended to <strong>December 20, 2025</strong></span>
         </p>
       </div>
     </div>
