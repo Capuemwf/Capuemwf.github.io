@@ -25,6 +25,6 @@ permalink: /sponsors/
     <img src="/image/hanyang.png" class="img-fluid" alt="Hanyang" style="max-height: 80px;" />
   </div>
   <div class="col-md-4 mb-4">
-    <img src="/image/otago.png" class="img-fluid" alt="Otago" style="max-height: 80px;" />
+    <img src="/image/University of Tasmania.svg" class="img-fluid" alt="UTAS" style="max-height: 80px;" />
   </div>
 </div>
