@@ -17,11 +17,10 @@ permalink: /submission/
 - **No page numbers please.**
 - **Note:** Violations of any of the above specifications may result in rejection of your paper.
 
-To help ensure formatting, please refer to the following templates for your submission. These include:
+To help ensure formatting, please refer to IEEE template selector:
 
-- **[Latex Template](/template/LatexSample.zip)**
-- **[Word Template (1)](/template/ieeeletter%20(1).docx)**
-- **[Word Template (2)](/template/ieeeletter%20(2).docx)**
+- **[IEEE template selector](https://template-selector.ieee.org/secure/templateSelector/format?publicationTypeId=3&titleId=1&articleId=1)**
+
 
 ### Final Paper Submission Instructions
 
