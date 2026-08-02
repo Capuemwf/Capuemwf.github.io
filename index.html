@@ -71,18 +71,13 @@
 
     /* Hero */
     .hero-section {
-      background: linear-gradient(135deg, #0f1729 0%, #182a54 40%, #1a3670 100%);
+      background: linear-gradient(135deg, rgba(15,23,42,0.75), rgba(24,42,84,0.7)), url('image/Tasmania_banner.webp');
+      background-size: cover;
+      background-position: center 30%;
       color: white;
       padding: 4rem 0 3rem;
       position: relative;
       overflow: hidden;
-    }
-    .hero-section::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: radial-gradient(ellipse at 70% 30%, rgba(97,187,70,0.12) 0%, transparent 60%),
-                  radial-gradient(ellipse at 20% 80%, rgba(0,186,254,0.08) 0%, transparent 50%);
     }
     .hero-title {
       font-family: var(--font-heading);
@@ -372,7 +367,7 @@
           <li class="nav-item"><a class="nav-link active" href="/" aria-current="page">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="sponsors/">Sponsors</a></li>
           <li class="nav-item"><a class="nav-link" href="committees/">Committees</a></li>
-          <li class="nav-item"><a class="nav-link" href="deadline/">Deadline</a></li>
+
           <li class="nav-item"><a class="nav-link" href="submission/">Submission</a></li>
           <li class="nav-item"><a class="nav-link" href="registration/">Registration</a></li>
           <li class="nav-item"><a class="nav-link" href="program/">Program</a></li>
@@ -400,7 +395,7 @@
               📍 Tasmania · Feb 11–14 &nbsp;|&nbsp; 📍 Melbourne · Feb 15–16 &nbsp;|&nbsp; 📍 Brisbane · Feb 17–18
             </p>
             <div class="mt-4 d-flex flex-wrap gap-2">
-              <a href="deadline/" class="btn btn-accent"><i class="bi bi-calendar-check me-1"></i> Important Dates</a>
+
               <a href="submission/" class="btn btn-outline-light"><i class="bi bi-send me-1"></i> Submit Paper</a>
               <a href="PDFReader/" class="btn btn-outline-light"><i class="bi bi-download me-1"></i> Call for Papers</a>
             </div>
@@ -480,29 +475,19 @@
         <h2 class="section-title">Important Dates &amp; Deadlines</h2>
         <ul class="timeline">
           <li class="timeline-item">
-            <div class="timeline-dot"><i class="bi bi-mic"></i></div>
-            <div class="timeline-date">Nov 15, 2025</div>
-            <div class="timeline-desc">Special Session &amp; Workshop Proposals Deadline</div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-dot"><i class="bi bi-trophy"></i></div>
-            <div class="timeline-date">Dec 15, 2025</div>
-            <div class="timeline-desc">Competition &amp; Tutorial Proposals Deadline</div>
-          </li>
-          <li class="timeline-item">
             <div class="timeline-dot"><i class="bi bi-file-earmark-text"></i></div>
-            <div class="timeline-date">Jan 15, 2026</div>
+            <div class="timeline-date">Nov 15, 2025</div>
             <div class="timeline-desc">Paper Submission Deadline</div>
           </li>
           <li class="timeline-item">
             <div class="timeline-dot"><i class="bi bi-envelope-check"></i></div>
-            <div class="timeline-date">Mar 15, 2026</div>
-            <div class="timeline-desc">Paper Acceptance Notification</div>
+            <div class="timeline-date">Dec 15, 2025</div>
+            <div class="timeline-desc">Notification of Acceptance</div>
           </li>
           <li class="timeline-item">
             <div class="timeline-dot"><i class="bi bi-check-circle"></i></div>
-            <div class="timeline-date">Apr 01, 2026</div>
-            <div class="timeline-desc">Final Paper Submission &amp; Early Registration Deadline</div>
+            <div class="timeline-date">Dec 31, 2025</div>
+            <div class="timeline-desc">Camera-Ready Copy &amp; Author Registration</div>
           </li>
         </ul>
       </section>
@@ -613,7 +598,7 @@
 
       <!-- Quick Links -->
       <div class="d-flex flex-wrap gap-3 justify-content-center mt-5 pt-4 border-top">
-        <a href="deadline/" class="btn btn-outline-primary-custom btn-lg px-4"><i class="bi bi-clock me-1"></i> Deadline</a>
+
         <a href="PDFReader/" class="btn btn-outline-primary-custom btn-lg px-4"><i class="bi bi-file-earmark-text me-1"></i> Call for Papers</a>
         <a href="submission/" class="btn btn-accent btn-lg px-4"><i class="bi bi-send me-1"></i> Paper Submission</a>
       </div>
@@ -624,8 +609,7 @@
   <footer class="site-footer">
     <div class="container text-center">
       <span>&copy; 2026 MiTA 2027</span>
-      &nbsp;&middot;&nbsp;
-      <a href="https://mita2027.com">mita2027.com</a>
+
     </div>
   </footer>
 
