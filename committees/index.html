@@ -24,8 +24,10 @@
     .page-header h1 { font-family: var(--font-heading); font-weight: 700; color: var(--color-primary); }
     .site-footer { background: var(--color-dark); color: #94a3b8; padding: 2rem 0; margin-top: 4rem; }
     .site-footer a { color: var(--color-accent); text-decoration: none; }
-    table { font-size: 0.95rem; }
+    table { font-size: 0.95rem; table-layout: fixed; }
     thead { background: var(--color-primary); color: white; }
+    table th:nth-child(1), table td:nth-child(1) { width: 35%; }
+    table th:nth-child(2), table td:nth-child(2) { width: 65%; }
   </style>
 </head>
 <body>
