@@ -26,6 +26,18 @@
     .site-footer a { color: var(--color-accent); text-decoration: none; }
     table { font-size: 0.95rem; }
     thead { background: var(--color-primary); color: white; }
+
+    /* --- Registration page additions --- */
+    .section-title { color: var(--color-primary); font-weight: 700; margin-bottom: 1rem; }
+    .fee-card { border-left: 4px solid var(--color-accent); }
+    .fee-amount { font-family: var(--font-heading); font-weight: 800; color: var(--color-primary); font-size: 2rem; line-height: 1.1; }
+    .fee-amount small { font-size: 1rem; font-weight: 600; color: #64748b; }
+    .bank-table th { width: 34%; background: #f1f5f9; color: var(--color-primary); font-weight: 700; vertical-align: middle; }
+    .bank-table td { vertical-align: middle; word-break: break-word; }
+    .qr-code { max-width: 240px; width: 100%; height: auto; background: #fff; border: 1px solid #e2e8f0; border-radius: .5rem; padding: .5rem; }
+    .policy-list li { margin-bottom: .5rem; }
+    .btn-mita { background: var(--color-accent); border-color: var(--color-accent); color: #fff; font-family: var(--font-heading); font-weight: 600; }
+    .btn-mita:hover, .btn-mita:focus { background: var(--color-accent-hover); border-color: var(--color-accent-hover); color: #fff; }
   </style>
 </head>
 <body>
@@ -53,19 +65,171 @@
       </div>
     </div>
   </nav>
+
   <main id="main" class="container my-4" style="max-width:1140px;" tabindex="-1">
     <div class="page-header">
       <h1 class="mb-0">Registration</h1>
     </div>
-    
-<h2>Registration</h2>
-<p>Registration details will be announced soon. Please check back later for updates.</p>
-<div class="alert alert-info mt-4">
-  <i class="bi bi-info-circle me-2"></i>
-  For those unable to attend in person due to visa issues, online participation and presentation are available.
-</div>
 
+    <!-- ==================== 1. Registration Fee ==================== -->
+    <h2 class="h3 section-title">1. Registration Fee</h2>
+
+    <div class="card shadow-sm border-0 fee-card mb-4">
+      <div class="card-body">
+        <h3 class="h6 text-uppercase text-muted mb-3">Registration Fee</h3>
+        <p class="fee-amount mb-1">6,800 <small>CNY</small></p>
+        <p class="fee-amount mb-2" style="font-size:1.35rem;">or 1,000 <small>USD</small></p>
+        <p class="mb-0 text-muted small">
+          The registration fee is the same for onsite and online presentation. The fee covers one paper accepted by MiTA 2027.
+        </p>
+      </div>
+    </div>
+
+    <div class="alert alert-secondary d-flex align-items-start" role="alert">
+      <i class="bi bi-wallet2 me-2 mt-1"></i>
+      <div>
+        Payment can be made either by <strong>bank transfer</strong> or by <strong>scanning the payment QR code</strong>.
+        You may choose the option that suits you best.
+      </div>
+    </div>
+
+    <!-- ==================== 2. How to Pay ==================== -->
+    <h2 class="h3 section-title mt-5">2. How to Pay</h2>
+
+    <div class="row g-4">
+      <!-- Bank transfer -->
+      <div class="col-lg-7">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-header bg-white border-0 pt-3">
+            <h3 class="h5 mb-0">
+              <i class="bi bi-bank me-2" style="color: var(--color-accent);"></i>
+              Option A — Bank Transfer
+            </h3>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-bordered bank-table mb-0 align-middle">
+                <tbody>
+                  <tr>
+                    <th scope="row">Account Name</th>
+                    <td>
+                      Tianjin Yilin Exhibition Service Co., Ltd.<br>
+                      <span class="text-muted">（天津以琳会展服务有限公司）</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Bank Name</th>
+                    <td>
+                      China CITIC Bank, Tianjin Huajin Sub-branch<br>
+                      <span class="text-muted">（中信银行天津华津支行）</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Account Number</th>
+                    <td><code class="fs-6">8111401013201156590</code></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Amount</th>
+                    <td>6,800 CNY <span class="text-muted">or</span> 1,000 USD</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- USD transfer guide -->
+            <div class="mt-3 small">
+              <i class="bi bi-file-earmark-pdf text-danger me-1"></i>
+              Paying in USD? Please refer to the
+              <a href="../pdf/Pay_by_USD.pdf" target="_blank" rel="noopener noreferrer">
+                USD Transfer Guide (PDF)
+              </a>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- QR code -->
+      <div class="col-lg-5">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-header bg-white border-0 pt-3">
+            <h3 class="h5 mb-0">
+              <i class="bi bi-qr-code me-2" style="color: var(--color-accent);"></i>
+              Option B — Scan to Pay
+            </h3>
+          </div>
+          <div class="card-body text-center">
+            <img src="../image/pay.webp"
+                 alt="Payment QR code for MiTA 2027 registration fee"
+                 class="qr-code mb-3">
+            <p class="mb-0 text-muted small">
+              Scan the QR code with your mobile payment app to complete the registration fee payment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== 3. Important Note ==================== -->
+    <div class="alert alert-warning mt-4" role="alert">
+      <h3 class="h5 alert-heading">
+        <i class="bi bi-exclamation-triangle-fill me-2"></i>
+        Important — Please Read Before Paying
+      </h3>
+      <p class="mb-3">
+        Whichever payment method you choose, please <strong>leave a payment remark/message</strong> when you pay, in the
+        following format:
+      </p>
+      <p class="text-center my-3">
+        <span class="badge text-bg-dark fs-6 px-3 py-2">Paper ID + Registrant Name (identical to the name on the paper)</span>
+      </p>
+      <p class="mb-3">
+        After payment, please also complete the registration information form so that we can collect your
+        attendance details.
+      </p>
+      <p class="mb-0">
+        <a class="btn btn-mita btn-lg"
+           href="https://docs.qq.com/form/page/DRVN6bkRQUnFWSWxn"
+           target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-pencil-square me-2"></i>Fill in the Registration Form
+        </a>
+      </p>
+    </div>
+
+    <!-- ==================== 4. Registration and Refund Policy ==================== -->
+    <h2 class="h3 section-title mt-5">3. Registration and Refund Policy</h2>
+
+    <div class="card shadow-sm border-0">
+      <div class="card-body">
+        <h3 class="h6 text-uppercase text-muted mb-3">Registration Policy</h3>
+        <ul class="policy-list ps-3 mb-4">
+          <li>
+            An accepted paper will be published in the proceedings <strong>ONLY if at least one author registers
+            for the paper</strong>.
+          </li>
+          <li>
+            MiTA 2027 provides both <strong>onsite</strong> and <strong>online</strong> presentation, and the
+            <strong>registration fee is the same</strong> for both formats.
+          </li>
+          <li>
+            Authors can choose their preferred format when completing the registration form / payment.
+          </li>
+        </ul>
+
+        <h3 class="h6 text-uppercase text-muted mb-3">Refund Policy</h3>
+        <ul class="policy-list ps-3 mb-0">
+          <li>
+            <strong>There will be no refunds</strong> to the authors.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="alert alert-info mt-4">
+      <i class="bi bi-info-circle me-2"></i>
+      For those unable to attend in person due to visa issues, online participation and presentation are available.
+    </div>
   </main>
+
   <footer class="site-footer">
     <div class="container text-center">
       <span>&copy; 2026 MiTA 2027</span>
